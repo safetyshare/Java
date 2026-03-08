@@ -1,3 +1,5 @@
+package com.mar.six;
+
 public class qiumianji {
     public static void main(String[] args) {
         int i=3,w=5;

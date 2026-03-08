@@ -1,3 +1,5 @@
+package com.example;
+
 //输出"hello World！"
 public class HelloWorld {
    public static void main(String[] args){
