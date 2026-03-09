@@ -1,4 +1,4 @@
-package org.example;
+package com.test;
 
 public class testbooleam {
     public static void main(String[] args) {
