@@ -5,15 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac68f383-e5b0-457c-acc2-0985d231b542" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/../test/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/src/main/java/org/example/testbooleam.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mar/nine/example4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mar/nine/example2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mar/nine/example2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mar/nine/example2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mar/nine/example2.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -43,9 +50,12 @@
     "last_opened_file_path": "D:/Study/Java/mar09",
     "nodejs.mocha.mocha_node_package_dir": "",
     "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "File.Encoding",
     "vue.rearranger.settings.migration": "true",
-    "应用程序.Main.executor": "Run"
+    "应用程序.Main.executor": "Run",
+    "应用程序.example4.executor": "Run",
+    "应用程序.input.executor": "Run"
   }
 }]]></component>
   <component name="RunManager" selected="Maven.mar09 [clean,compile,test]">
@@ -135,6 +145,8 @@
       <workItem from="1773018460188" duration="72000" />
       <workItem from="1773018546789" duration="145000" />
       <workItem from="1773018721655" duration="2609000" />
+      <workItem from="1773024587532" duration="125000" />
+      <workItem from="1773025306923" duration="653000" />
     </task>
     <servers />
   </component>
