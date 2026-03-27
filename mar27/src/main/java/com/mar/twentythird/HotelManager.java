@@ -80,7 +80,7 @@ public class HotelManager {
         int floor = roomNo / 100;    //根据房间号得到楼层
         int no = roomNo % 100;      //得到楼层的房间号
         //判断楼层是否正确
-        if(floor<1 || floor>12 || no<1 || no>10){
+        if(floor<1 || floor>10 || no<1 || no>10){
             System.out.println("输入房间号有误，请输入指令继续办理退房");
             //如何结束函数，函数遇到return结束
             return;
