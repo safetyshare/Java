@@ -48,4 +48,54 @@ public class HotelManager {
             System.out.println();
         }
     }
+    //办理入住
+    public static void in() {
+        System.out.println("请输入房间号：");
+        Scanner sc = new Scanner(System.in);
+        int roomNo = sc.nextInt();
+        //把房间号转换为楼层和房间，使其和数组的下标对应
+        int floor = roomNo / 100;      //根据房间号得到楼层
+        int no = roomNo % 100;         //得到楼层的房间号
+        //判断楼层是否正确
+        if (floor < 1 || floor > 5 || no < 1 || no > 10) {
+            System.out.println("输入房间号有误，请输入指令继续办理入住");
+            return;
+        }
+        //判断房间是否有人入住
+        if (!"EMPTY".equals(rooms[floor - 1][no - 1])) {
+            System.out.println(roomNo + "已经有人入住，请输入指令继续办理入住");
+            return;
+        }
+        System.out.println("请输入姓名:");
+        String name = sc.next();
+        rooms[floor - 1][no - 1] = name;
+        System.out.println("入住成功！");
+    }
+    //办理退房
+    public static void out(){
+        System.out.println("请输入房间号：");
+        Scanner sc = new Scanner(System.in);
+        int roomNo = sc.nextInt();
+        //需要把房间号转换为楼层和房间，使其和数组的下标对应
+        int floor = roomNo / 100;    //根据房间号得到楼层
+        int no = roomNo % 100;      //得到楼层的房间号
+        //判断楼层是否正确
+        if(floor<1 || floor>12 || no<1 || no>10){
+            System.out.println("输入房间号有误，请输入指令继续办理退房");
+            //如何结束函数，函数遇到return结束
+            return;
+        }
+        //判断房间是否有人入住
+        if("EMPTY".equals(rooms[floor-1][no-1])){
+            System.out.println(roomNo+"没人入住，请输入指令继续办理退房");
+            return;
+        }
+        rooms[floor-1][no-1] = "EMPTY";
+        System.out.println("该房间退房成功！");
+    }
+    //退出
+    private static void exit() {
+        System.out.println("您退出系统，谢谢使用");
+        System.exit(0);
+    }
 }
