@@ -20,7 +20,33 @@ class Person {
     }
 }
 class Rect {
-    
+    private int length1;//长
+    private int weight;
+    //成员方法
+    //求周长
+    public int clength(){
+        int cl;
+        cl =2*(length1+weight);
+        return cl;
+    }
+    public int area(){
+        int s;
+        s=(length1*weight);
+        return s;
+    }
+}
+class Yuan {
+    private int r;//半径
+    public double clength(){
+        double cl;
+        cl=2*Math.PI*r;
+        return cl;
+    }
+    public double area(){
+        double s;
+        s=Math.PI*r*r;
+        return s;
+    }
 
     
 }
