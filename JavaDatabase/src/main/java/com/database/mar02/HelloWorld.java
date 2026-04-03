@@ -1,4 +1,4 @@
-package com.example;
+package com.database.mar02;
 
 //输出"hello World！"
 public class HelloWorld {

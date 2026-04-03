@@ -32,9 +32,9 @@ class Calculator {
     }
     
 }
-class Circle{
+class Circle1{
     private int r=6;
-    public Circle(int r) {
+    public Circle1(int r) {
         this.r = r;
     }
     public double area() {
