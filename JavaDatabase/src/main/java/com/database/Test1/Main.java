@@ -12,6 +12,7 @@ public class Main {
         // System.out.println(ac.Add3(2,4,9));
         // System.out.println(ac.AddDouble(3.4,6.7));
         System.out.println(ac.Add(6,8));
+        System.out.println(ac.Add(5,4.6));
     }
 }
 class Calculator {
