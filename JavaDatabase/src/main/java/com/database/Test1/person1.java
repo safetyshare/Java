@@ -16,6 +16,7 @@ class Person{
         this.name=name;
         this.sex=sex;
         this.age=age;
+        // this关键字，表示本类
     }
     Person(){}
     public String toString(){
