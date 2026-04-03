@@ -1,4 +1,4 @@
-package com.mar.twenty;
+package com.database.mar20;
 
 public class example2 {
     static void main(){

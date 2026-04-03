@@ -1,4 +1,4 @@
-package com.database.Test1;
+package com.testone;
 
 public class Main {
     static void main() {
@@ -7,7 +7,7 @@ public class Main {
         // System.out.println("面积: " + c1.area());
         // System.out.println("周长: " + c1.cl());
         // System.out.println("描述: " + c1.toString());
-        Calculator ac=new Calculator();
+        // Calculator ac=new Calculator();
         // System.out.println(ac.Add2(6,8));
         // System.out.println(ac.Add3(2,4,9));
         // System.out.println(ac.AddDouble(3.4,6.7));
@@ -15,9 +15,8 @@ public class Main {
     }
 }
 class Calculator {
-    //方法重载把功能相近的方法名定义为一样的，但是形参一定不能完全一样（类型不同，个数不同，顺序不同）
     public int Add(int a,int b){
-        System.err.println("intint被调用");
+        System.err.println(intint被调用);
         return a+b;
     }
     public int Add(int a,int b,int c){

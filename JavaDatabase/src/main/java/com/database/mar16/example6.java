@@ -1,4 +1,4 @@
-package com.mar.sixteen;
+package com.database.mar16;
 
 public class example6 {
     static void main(){

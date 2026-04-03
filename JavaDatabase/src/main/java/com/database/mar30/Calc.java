@@ -1,4 +1,4 @@
-package com.mar.thirty;
+package com.database.mar30;
 import java.util.Scanner;
 public class Calc {
     static void main(){

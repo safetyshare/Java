@@ -1,4 +1,4 @@
-package com.mar.twenty;
+package com.database.mar20;
 import java.util.Scanner;
 public class example4 {
     static void main(){

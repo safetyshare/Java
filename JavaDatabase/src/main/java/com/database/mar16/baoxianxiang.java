@@ -1,4 +1,4 @@
-package com.mar.sixteen;
+package com.database.mar16;
 import java.util.Scanner;
 public class baoxianxiang
 {

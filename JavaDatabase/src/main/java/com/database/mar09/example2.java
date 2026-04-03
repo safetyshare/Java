@@ -1,4 +1,4 @@
-package com.mar.nine;
+package com.database.mar09;
 public class example2 {
     public static void main(String[] args) {
         //类型转换

@@ -1,4 +1,4 @@
-package com.mar.thirty;
+package com.database.mar30;
 
 public class Test1 {
     static void main(){

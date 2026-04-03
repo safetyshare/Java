@@ -1,4 +1,4 @@
-package com.mar.twentythird;
+package com.database.mar27;
 import java.util.Scanner;
 public class chengji {
     static void main() {

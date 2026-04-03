@@ -1,4 +1,4 @@
-package com.mar.twentythird;
+package com.database.mar23;
 import java.util.Scanner;
 public class zuoye {
     static void main(){

@@ -1,4 +1,4 @@
-package com.mar.thirty;
+package com.database.mar30;
 
 public class card {
     public static void main(String[] args) {

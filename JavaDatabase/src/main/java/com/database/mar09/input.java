@@ -1,4 +1,4 @@
-package com.mar.nine;
+package com.database.mar09;
 import java.util.Scanner;//引入Scanner类
 public class input {
     public static void main(String[] args) {

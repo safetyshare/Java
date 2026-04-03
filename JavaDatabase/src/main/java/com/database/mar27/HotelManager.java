@@ -1,4 +1,4 @@
-package com.mar.twentythird;
+package com.database.mar27;
 import java.util.Scanner;
 public class HotelManager {
     private static String[][] rooms =new String[5][10];

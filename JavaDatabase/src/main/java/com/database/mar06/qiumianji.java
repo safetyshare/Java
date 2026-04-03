@@ -1,4 +1,4 @@
-package com.mar.six;
+package com.database.mar06;
 
 public class qiumianji {
     public static void main(String[] args) {

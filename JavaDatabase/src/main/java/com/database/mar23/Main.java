@@ -1,4 +1,4 @@
-package com.mar.twentythird;
+package com.database.mar23;
 import java.util.Arrays;
 public class Main {
     static void main() {

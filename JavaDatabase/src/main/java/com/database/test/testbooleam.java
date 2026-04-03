@@ -1,4 +1,4 @@
-package com.test;
+package com.database.test;
 
 public class testbooleam {
     public static void main(String[] args) {

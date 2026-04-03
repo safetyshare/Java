@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3a2ef8b6-e34e-416a-a0ab-ae904564c04d" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/Test1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/mar06/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/mar06/example3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/mar06/qiumianji.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/mar09/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/mar09/example2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/mar09/example3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/mar09/example4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/mar09/example5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/mar09/example6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/mar09/input.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/mar09/jishu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/mar09/year.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/mar16/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/mar16/baoxianxiang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/mar16/calc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/mar16/example5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/mar16/example6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/mar16/example7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/mar16/kaiguan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/mar16/sd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/mar16/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/mar16/test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/mar20/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/mar20/example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/mar20/example2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/mar20/example3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/mar20/example4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/mar20/example6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/mar20/example7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/mar23/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/mar23/example2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/mar23/fib.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/mar23/zuoye.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/mar27/HotelManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/mar27/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/mar27/chengji.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/mar27/mid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/mar27/zuoye.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/mar30/Calc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/mar30/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/mar30/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/mar30/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/mar30/card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/test/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/test/testbooleam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mar06/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mar06/src/main/java/com/mar/six/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mar06/src/main/java/com/mar/six/example3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mar06/src/main/java/com/mar/six/qiumianji.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mar06/src/main/resources/example2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mar06/src/main/resources/example3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mar06/src/main/resources/teacher/Example1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mar06/src/main/resources/teacher/Example2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mar06/src/main/resources/teacher/Example3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mar06/src/main/resources/各数据类型所占字符数.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mar06/target/classes/com/mar/six/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mar06/target/classes/com/mar/six/MyClass1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mar06/target/classes/com/mar/six/MyClass2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mar06/target/classes/com/mar/six/example3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mar06/target/classes/com/mar/six/qiumianji.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mar06/target/classes/example2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mar06/target/classes/example3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mar06/target/classes/teacher/Example1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mar06/target/classes/teacher/Example2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mar06/target/classes/teacher/Example3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mar06/target/classes/各数据类型所占字符数.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar09/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar09/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar09/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar09/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar09/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar09/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar09/src/main/java/com/mar/nine/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar09/src/main/java/com/mar/nine/example2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar09/src/main/java/com/mar/nine/example3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar09/src/main/java/com/mar/nine/example4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar09/src/main/java/com/mar/nine/example5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar09/src/main/java/com/mar/nine/example6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar09/src/main/java/com/mar/nine/input.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar09/src/main/java/com/mar/nine/jishu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar09/src/main/java/com/mar/nine/year.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar09/target/classes/com/mar/nine/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar09/target/classes/com/mar/nine/example2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar09/target/classes/com/mar/nine/example3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar09/target/classes/com/mar/nine/example4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar09/target/classes/com/mar/nine/example5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar09/target/classes/com/mar/nine/example6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar09/target/classes/com/mar/nine/input.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar09/target/classes/com/mar/nine/jishu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar09/target/classes/com/mar/nine/year.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar09/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar09/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar09/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar09/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar16/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar16/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar16/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar16/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar16/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar16/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar16/src/main/java/com/mar/sixteen/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar16/src/main/java/com/mar/sixteen/baoxianxiang.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar16/src/main/java/com/mar/sixteen/calc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar16/src/main/java/com/mar/sixteen/example5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar16/src/main/java/com/mar/sixteen/example6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar16/src/main/java/com/mar/sixteen/example7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar16/src/main/java/com/mar/sixteen/kaiguan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar16/src/main/java/com/mar/sixteen/sd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar16/src/main/java/com/mar/sixteen/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar16/src/main/java/com/mar/sixteen/test2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar20/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar20/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar20/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar20/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar20/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar20/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar20/src/main/java/com/mar/twenty/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar20/src/main/java/com/mar/twenty/example.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar20/src/main/java/com/mar/twenty/example2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar20/src/main/java/com/mar/twenty/example3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar20/src/main/java/com/mar/twenty/example4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar20/src/main/java/com/mar/twenty/example6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar20/src/main/java/com/mar/twenty/example7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar23/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar23/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar23/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar23/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar23/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar23/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar23/src/main/java/com/mar/twentythird/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar23/src/main/java/com/mar/twentythird/example2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar23/src/main/java/com/mar/twentythird/fib.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar23/src/main/java/com/mar/twentythird/zuoye.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar27/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar27/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar27/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar27/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar27/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar27/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar27/src/main/java/com/mar/twentythird/HotelManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar27/src/main/java/com/mar/twentythird/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar27/src/main/java/com/mar/twentythird/chengji.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar27/src/main/java/com/mar/twentythird/mid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar27/src/main/java/com/mar/twentythird/zuoye.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar30/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar30/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar30/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar30/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar30/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar30/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar30/src/main/java/com/mar/thirty/Calc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar30/src/main/java/com/mar/thirty/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar30/src/main/java/com/mar/thirty/Test1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar30/src/main/java/com/mar/thirty/Test2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mar30/src/main/java/com/mar/thirty/card.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test/src/main/java/com/test/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test/src/main/java/com/test/testbooleam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test/target/classes/com/test/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test/target/classes/com/test/testbooleam.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3BpyPjyj2k5jXb8NcgXdrnkhM6J" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Study/Java/JavaDatabase/src/main/java/com/database/Test1",
+    "onboarding.tips.debug.path": "D:/Study/Java/JavaDatabase/src/main/java/com/database/Main.java",
+    "settings.editor.selected.configurable": "preferences.language.and.region",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Study\Java\JavaDatabase\src\main\java\com\database\test" />
+      <recent name="D:\Study\Java\JavaDatabase\src\main\java\com\database\mar30" />
+      <recent name="D:\Study\Java\JavaDatabase\src\main\java\com\database\mar27" />
+      <recent name="D:\Study\Java\JavaDatabase\src\main\java\com\database\mar23" />
+      <recent name="D:\Study\Java\JavaDatabase\src\main\java\com\database\mar20" />
+    </key>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="3a2ef8b6-e34e-416a-a0ab-ae904564c04d" name="更改" comment="" />
+      <created>1775200285956</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1775200285956</updated>
+      <workItem from="1775200290087" duration="1073000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/database/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

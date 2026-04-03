@@ -1,4 +1,4 @@
-package com.mar.nine;
+package com.database.mar09;
 import java.util.Scanner;
 public class example6 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.mar.nine;
+package com.database.mar09;
 import java.util.Scanner;
 public class jishu {
     public static void main(String[] args) {

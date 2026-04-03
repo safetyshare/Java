@@ -1,4 +1,4 @@
-package com.mar.twenty;
+package com.database.mar20;
 public class example6 {
     static void main(){
         int a=1,i=1;long sum1=1,sum2=0;
