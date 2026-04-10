@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a2ef8b6-e34e-416a-a0ab-ae904564c04d" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/apr10/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/apr10/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/apr10/Test3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/apr10/Test4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/apr10/Test5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +55,7 @@
     "应用程序.Test2.executor": "Run",
     "应用程序.Test3.executor": "Run",
     "应用程序.Test4.executor": "Run",
+    "应用程序.Test5.executor": "Run",
     "应用程序.ci.executor": "Run",
     "应用程序.juxing.executor": "Run",
     "应用程序.person1.executor": "Run"
@@ -81,7 +79,7 @@
       <updated>1775200285956</updated>
       <workItem from="1775200290087" duration="9942000" />
       <workItem from="1775212865463" duration="188000" />
-      <workItem from="1775802169548" duration="7507000" />
+      <workItem from="1775802169548" duration="9572000" />
     </task>
     <servers />
   </component>
