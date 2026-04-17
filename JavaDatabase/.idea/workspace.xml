@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a2ef8b6-e34e-416a-a0ab-ae904564c04d" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/apr17/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/apr17/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/apr17/Test4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/apr17/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/apr17/Test5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/database/apr17/Test4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/database/apr17/Test4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +54,7 @@
     "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "MavenSettings",
     "vue.rearranger.settings.migration": "true",
+    "应用程序.Test.executor": "Run",
     "应用程序.Test1.executor": "Run",
     "应用程序.Test2.executor": "Run",
     "应用程序.Test3.executor": "Debug",
@@ -84,13 +85,13 @@
       <recent name="D:\Study\Java\JavaDatabase\src\main\java\com\database\mar23" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.com.database.apr17.Test2">
-    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.database.apr13.Test3" />
+  <component name="RunManager" selected="应用程序.Test">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.database.apr17.Test" />
       <module name="JavaDatabase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.database.apr13.*" />
+          <option name="PATTERN" value="com.database.apr17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Wolf2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.database.apr13.Wolf2" />
+    <configuration name="Test5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.database.apr17.Test5" />
       <module name="JavaDatabase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.database.apr13.*" />
+          <option name="PATTERN" value="com.database.apr17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.Test" />
+        <item itemvalue="应用程序.Test5" />
         <item itemvalue="应用程序.com.database.apr17.Test2" />
         <item itemvalue="应用程序.com.database.apr17.Test1" />
         <item itemvalue="应用程序.duotai" />
-        <item itemvalue="应用程序.Test3" />
-        <item itemvalue="应用程序.Wolf2" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +173,7 @@
       <workItem from="1775802169548" duration="10277000" />
       <workItem from="1775990411561" duration="1642000" />
       <workItem from="1776040172912" duration="11549000" />
-      <workItem from="1776406871111" duration="6953000" />
+      <workItem from="1776406871111" duration="10674000" />
     </task>
     <servers />
   </component>
