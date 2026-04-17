@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a2ef8b6-e34e-416a-a0ab-ae904564c04d" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/apr13/Test3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/apr13/duotai.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/apr17/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/apr17/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/apr17/Test4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +63,8 @@
     "应用程序.Wolf1.executor": "Run",
     "应用程序.Wolf2.executor": "Debug",
     "应用程序.ci.executor": "Run",
+    "应用程序.com.database.apr17.Test1.executor": "Run",
+    "应用程序.com.database.apr17.Test2.executor": "Run",
     "应用程序.duotai.executor": "Run",
     "应用程序.juxing.executor": "Run",
     "应用程序.person1.executor": "Run"
@@ -81,33 +84,7 @@
       <recent name="D:\Study\Java\JavaDatabase\src\main\java\com\database\mar23" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.duotai">
-    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.database.apr13.Test1" />
-      <module name="JavaDatabase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.database.apr13.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.database.apr13.Test2" />
-      <module name="JavaDatabase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.database.apr13.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="应用程序.com.database.apr17.Test2">
     <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.database.apr13.Test3" />
       <module name="JavaDatabase" />
@@ -134,6 +111,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.database.apr17.Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.database.apr17.Test1" />
+      <module name="JavaDatabase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.database.apr17.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.database.apr17.Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.database.apr17.Test2" />
+      <module name="JavaDatabase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.database.apr17.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="duotai" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.database.apr13.duotai" />
       <module name="JavaDatabase" />
@@ -149,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.com.database.apr17.Test2" />
+        <item itemvalue="应用程序.com.database.apr17.Test1" />
         <item itemvalue="应用程序.duotai" />
         <item itemvalue="应用程序.Test3" />
         <item itemvalue="应用程序.Wolf2" />
-        <item itemvalue="应用程序.Test2" />
-        <item itemvalue="应用程序.Test1" />
       </list>
     </recent_temporary>
   </component>
@@ -169,6 +172,7 @@
       <workItem from="1775802169548" duration="10277000" />
       <workItem from="1775990411561" duration="1642000" />
       <workItem from="1776040172912" duration="11549000" />
+      <workItem from="1776406871111" duration="6953000" />
     </task>
     <servers />
   </component>
