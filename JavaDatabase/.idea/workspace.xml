@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a2ef8b6-e34e-416a-a0ab-ae904564c04d" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/apr24/Test5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/apr24/jiahua.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/database/apr24/Test4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/database/apr24/Test4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +63,7 @@
     "应用程序.Test1.executor": "Run",
     "应用程序.Test2.executor": "Run",
     "应用程序.Test3.executor": "Run",
-    "应用程序.Test4.executor": "Run",
+    "应用程序.Test4.executor": "Debug",
     "应用程序.Test5.executor": "Run",
     "应用程序.Test6.executor": "Run",
     "应用程序.Wolf1.executor": "Run",
@@ -72,6 +73,7 @@
     "应用程序.com.database.apr17.Test1.executor": "Run",
     "应用程序.com.database.apr17.Test2.executor": "Run",
     "应用程序.duotai.executor": "Run",
+    "应用程序.jiahua.executor": "Run",
     "应用程序.juxing.executor": "Run",
     "应用程序.person1.executor": "Run"
   },
@@ -90,20 +92,7 @@
       <recent name="D:\Study\Java\JavaDatabase\src\main\java\com\database\mar23" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.Test4">
-    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.database.apr24.Test1" />
-      <module name="JavaDatabase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.database.apr24.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="应用程序.jiahua">
     <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.database.apr24.Test2" />
       <module name="JavaDatabase" />
@@ -143,12 +132,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.database.apr24.Test5" />
+      <module name="JavaDatabase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.database.apr24.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="jiahua" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.database.apr24.jiahua" />
+      <module name="JavaDatabase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.database.apr24.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.jiahua" />
+        <item itemvalue="应用程序.Test5" />
         <item itemvalue="应用程序.Test4" />
         <item itemvalue="应用程序.Test3" />
         <item itemvalue="应用程序.Test2" />
-        <item itemvalue="应用程序.Test1" />
       </list>
     </recent_temporary>
   </component>
@@ -167,12 +183,23 @@
       <workItem from="1776406871111" duration="11867000" />
       <workItem from="1776644975546" duration="11064000" />
       <workItem from="1777011420854" duration="440000" />
-      <workItem from="1777011977012" duration="8230000" />
+      <workItem from="1777011977012" duration="11616000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -181,16 +208,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/database/backup.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/database/apr24/Test4.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/database/apr24/Test4.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
