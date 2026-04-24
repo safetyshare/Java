@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a2ef8b6-e34e-416a-a0ab-ae904564c04d" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/apr20/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/apr20/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/apr20/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/apr20/Test3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/apr20/Test4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/apr20/cheng.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/apr20/r5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3a2ef8b6-e34e-416a-a0ab-ae904564c04d" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -182,7 +173,7 @@
       <workItem from="1775990411561" duration="1642000" />
       <workItem from="1776040172912" duration="11549000" />
       <workItem from="1776406871111" duration="11867000" />
-      <workItem from="1776644975546" duration="11025000" />
+      <workItem from="1776644975546" duration="11064000" />
     </task>
     <servers />
   </component>
