@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a2ef8b6-e34e-416a-a0ab-ae904564c04d" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/apr24/Test5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/database/apr24/jiahua.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/database/apr24/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/database/apr24/Test1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +55,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "configurable.group.editor",
     "vue.rearranger.settings.migration": "true",
     "应用程序.StaticStuff.executor": "Run",
     "应用程序.Test.executor": "Run",
@@ -184,6 +183,7 @@
       <workItem from="1776644975546" duration="11064000" />
       <workItem from="1777011420854" duration="440000" />
       <workItem from="1777011977012" duration="11616000" />
+      <workItem from="1777249804796" duration="8682000" />
     </task>
     <servers />
   </component>

@@ -1,7 +1,7 @@
 package com.database.apr24;
 
 public class Test1 {
-    static void main() {
+    void main() {
         Object o1=new Object();
         System.out.println(o1.toString());
         Myclass1 mc1 = new Myclass1(10,20);
