@@ -13,5 +13,16 @@ public class Main {
             // 但您始终可以通过按 <shortcut actionId="ToggleLineBreakpoint"/> 添加更多断点。
             IO.println("i = " + i);
         }
+    NewTest.display1();
     }
+}
+class NewTest{
+    public static final String display1(){
+        String s1=IO.readln("first");
+        String s2=IO.readln("second");
+        String s3=IO.readln("third");
+        IO.println(s1+s2+s3);
+        return s1;
+    }
+
 }

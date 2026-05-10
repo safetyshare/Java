@@ -6,7 +6,6 @@ public class Auth {
         System.out.println("请输入用户名");
         String username=sc.next();
         System.out.println("请输入密码");
-
         String password=sc.next();
         if (password.matches("^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)\\S{6,16}$")){
             System.out.println("注册完成");
