@@ -2,6 +2,7 @@ package com.advanced.collection;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.UUID;
 
 public class Example02 {
     static void main() {
@@ -10,6 +11,7 @@ public class Example02 {
         list.add("stud2");
         list.add("stud3");
         list.add("stud5");
+        list.add(UUID.randomUUID().toString());
         // 1.迭代方法1 iterator 迭代器
         Iterator iterator=list.iterator();
         while (iterator.hasNext()) {
@@ -20,7 +22,7 @@ public class Example02 {
         for (Object object : list) {
             System.out.println(object);
         }
-        System.out.println("---------");
+        System.out.println("------------");
         // 3.迭代方法3 lambda表达式
         //list.forEach(o->System.out.println(o));
         list.forEach(System.out::println);
