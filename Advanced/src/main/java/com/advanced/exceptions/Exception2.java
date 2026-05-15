@@ -1,4 +1,4 @@
-package com.advanced.edu.hbsi;
+package com.advanced.exceptions;
 
 public class Exception2 {
     public static int divide(int x,int y) throws Exception{

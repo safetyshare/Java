@@ -1,4 +1,4 @@
-package com.advanced.apr27;
+package com.advanced.exceptions;
 
 public class Test1 {
     void main(){

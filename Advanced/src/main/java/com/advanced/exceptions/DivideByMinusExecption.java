@@ -1,4 +1,4 @@
-package com.advanced.edu.hbsi;
+package com.advanced.exceptions;
 
 public class DivideByMinusExecption extends Exception{
     public DivideByMinusExecption() {

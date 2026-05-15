@@ -1,4 +1,4 @@
-package com.advanced.edu.hbsi;
+package com.advanced.exceptions;
 
 public class ex1 extends Exception{
     public static void main (String[] args) {
