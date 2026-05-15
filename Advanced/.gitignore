@@ -3,6 +3,7 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 .kotlin
+Java基础入门(第二版).pdf
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
