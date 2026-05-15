@@ -32,6 +32,7 @@ public class map1 {
             System.out.println(key+":"+value);
         }
         keySet.forEach(o->System.err.println(o+"="+map.get(o)));
+        map.forEach((key,value)-> System.out.println(key+":"+value));
         }
     }
 
