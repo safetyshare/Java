@@ -6,7 +6,7 @@ import java.util.UUID;
 
 public class Example01 {
     public static void main(String[] args) {
-        ArrayList list =new ArrayList<>();
+        ArrayList<String> list =new ArrayList<>();
         list.add("stud1");
         list.add("stud2");
         list.add("stud3");
@@ -23,12 +23,12 @@ public class Example01 {
         }
         System.out.println(list.indexOf("stud3"));
 
-    LinkedList link1=new LinkedList<>();
+    LinkedList<String> link1=new LinkedList<>();
     for (int i = 0; i < 50; i++) {
-        link1.add(UUID.randomUUID());
+        link1.add(UUID.randomUUID().toString());
         
     }
-        for (Object o : link1) {
+        for (String o : link1) {
             System.out.println(o);
 
         }

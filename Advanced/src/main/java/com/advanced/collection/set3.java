@@ -39,7 +39,7 @@ class Student{
 }
 public class set3 {
     static void main() {
-        HashSet set =new HashSet();
+        HashSet<Student> set =new HashSet();
         Student s1=new Student(1,"jack");
         Student s2=new Student(2,"Rose");
         Student s3=new Student(2,"Rose");

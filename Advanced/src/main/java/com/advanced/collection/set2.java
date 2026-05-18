@@ -5,7 +5,7 @@ import java.util.Set;
 
 public class set2 {
     static void main() {
-        Set set=new HashSet();
+        Set<String> set=new HashSet<>();
         set.add("Mike");
         set.add("Jack");
         set.add("Rose");
