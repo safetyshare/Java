@@ -8,8 +8,9 @@ public class ReadFile {
     public static void main(String[] args) {
 
         // 1.创建文件输入流来读取文件
+        FileInputStream in=null;
         try {
-            FileInputStream in =new FileInputStream("src\\main\\resources\\test.txt") ;
+            in =new FileInputStream("src\\main\\resources\\test.txt") ;
             int b=0;
             // 2.通过循环读取文件内容，当返回-1时结束
             while ((b=in.read()) != -1){
@@ -21,6 +22,12 @@ public class ReadFile {
             throw new RuntimeException(e);
         } catch (IOException e) {
             throw new RuntimeException(e);
+        }finally {
+            try {
+                in.close();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
         }
 
     }
