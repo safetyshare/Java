@@ -11,5 +11,7 @@ public class set2 {
         set.add("Rose");
         set.add("Rose");
         set.forEach(System.out::println);
+        set.remove("Jack");
+        set.forEach(System.out::println);
     }
 }
