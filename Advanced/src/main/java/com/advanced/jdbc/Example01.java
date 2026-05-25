@@ -29,5 +29,6 @@ public class Example01 {
         rs.close();
         stmt.close();
         con.close();
+
     }
 }
