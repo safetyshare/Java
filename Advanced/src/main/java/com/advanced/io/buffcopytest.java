@@ -3,6 +3,7 @@ package com.advanced.io;
 import java.io.*;
 
 public class buffcopytest {
+    @SuppressWarnings("resource")
     public static void main(String[] args) throws FileNotFoundException {
 //        FileInputStream fis = null;
 //        FileOutputStream fos = null;

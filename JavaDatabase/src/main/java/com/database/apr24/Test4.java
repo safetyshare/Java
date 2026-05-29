@@ -1,6 +1,7 @@
 package com.database.apr24;
 import java.util.Scanner;
 public class Test4 {
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int x,s=0;

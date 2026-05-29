@@ -13,6 +13,7 @@ abstract class Myclass2{
 
 }
 abstract class Aminal {
+    @SuppressWarnings("unused")
     private int w;
     public void eat(){
         System.out.println("会吃东西");

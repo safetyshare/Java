@@ -1,6 +1,7 @@
 package com.database.apr13;
 
 public class duotai {
+    @SuppressWarnings("unused")
     static void main(){
     Animal1 an1,an2,an3;
     an1=new Animal1();

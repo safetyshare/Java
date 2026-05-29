@@ -21,6 +21,7 @@ class Student{
     public String toString() {
         return "学号："+id+"姓名："+name;
     }
+    @SuppressWarnings("unused")
     @Override
     public boolean equals(Object obj) {
         if (this==obj){

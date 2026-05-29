@@ -1,6 +1,7 @@
 package com.database.apr17;
 
 public class Test4 {
+    @SuppressWarnings("unused")
     static void main(){
         int b=28;
         final int d=1;//final修饰的局部变量只能被赋值一次

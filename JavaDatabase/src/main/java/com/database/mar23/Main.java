@@ -1,6 +1,7 @@
 package com.database.mar23;
 import java.util.Arrays;
 public class Main {
+    @SuppressWarnings("unused")
     static void main() {
         int h=0;
         int[] arr1,arr2;

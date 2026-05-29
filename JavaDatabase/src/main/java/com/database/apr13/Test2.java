@@ -1,6 +1,7 @@
 package com.database.apr13;
 
 public class Test2 {
+    @SuppressWarnings("unused")
     static void main(){
         System.out.println("创建不带参数的子类对象");
         SubClass sc1=new SubClass();
@@ -11,6 +12,7 @@ public class Test2 {
     }
 }
 class Base{
+    @SuppressWarnings("unused")
     private int x;
     public Base(){
         System.out.println("父类不带参数的构造方法");
@@ -21,6 +23,7 @@ class Base{
     }
 }
 class SubClass extends Base{
+    @SuppressWarnings("unused")
     private int a;
     public SubClass(){
         System.out.println("子类不带参数的构造方法");

@@ -1,6 +1,7 @@
 package com.database.apr24;
 
 public class Test3 {
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         StringBuffer s1=new StringBuffer("hello");
         StringBuffer s2= new StringBuffer("world!");

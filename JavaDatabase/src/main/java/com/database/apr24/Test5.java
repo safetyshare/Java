@@ -1,6 +1,7 @@
 package com.database.apr24;
 
 public class Test5 {
+    @SuppressWarnings({ "unused", "deprecation" })
     public static void main(String[] args) {
         System.out.println("int的最大值："+Integer.MAX_VALUE);
         Integer i1=new Integer(10);

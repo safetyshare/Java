@@ -1,6 +1,7 @@
 package com.database.Test1;
 
 public class ci {
+    @SuppressWarnings("unused")
     static void main(){
         Circle c1=new Circle(10);
         Circle c2=new Circle();

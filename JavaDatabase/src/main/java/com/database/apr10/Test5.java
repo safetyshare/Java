@@ -25,7 +25,9 @@ class Dog extends Animal{
     }
 }
 class Person{
+    @SuppressWarnings("unused")
     private String Name;
+    @SuppressWarnings("unused")
     private int h;
     public void speak(){
         System.out.println("人有语言会说话");
@@ -35,7 +37,9 @@ class Person{
     }
 }
 class Student1 extends Person{
+    @SuppressWarnings("unused")
     private String no;
+    @SuppressWarnings("unused")
     private int score;
     public void study(){
         System.out.println("学生的主要任务是学习！！");

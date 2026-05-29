@@ -21,6 +21,7 @@ class Wolf extends Animal{
     }
 }
 public class Wolf2 {
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         Wolf w=new Wolf();
     }

@@ -5,6 +5,7 @@ import java.util.Iterator;
 import java.util.UUID;
 
 public class Example02 {
+    @SuppressWarnings("rawtypes")
     static void main() {
         ArrayList<String> list =new ArrayList<>();
         list.add("stud1");

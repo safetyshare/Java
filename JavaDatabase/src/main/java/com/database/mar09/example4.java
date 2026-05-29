@@ -1,6 +1,7 @@
 package com.database.mar09;
 import java.util.Scanner;
 public class example4 {
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         double r,c,s;
         Scanner sc=new Scanner(System.in);

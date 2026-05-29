@@ -1,6 +1,7 @@
 package com.database.apr17;
 
 public class Test1 {
+    @SuppressWarnings("static-access")
     static void main(){
         Person p1=new Person("张三",23);
         Person p2=new Person("张三",23);
