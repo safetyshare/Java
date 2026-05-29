@@ -1,6 +1,7 @@
 package com.database.mar16;
 import java.util.Scanner;
 public class calc {
+    @SuppressWarnings("resource")
     static void main()
         {
         Scanner sc = new Scanner(System.in);

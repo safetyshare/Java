@@ -14,6 +14,6 @@ public class zuoye {
         System.out.println("平均值为："+avg);
         for (int i=0;i<arr1.length;i++){
             System.out.println((i+1)+"月降雨量与平均降雨量的差为："+(arr1[i]-avg));
-        }
+        }sc.close();
     }
 }

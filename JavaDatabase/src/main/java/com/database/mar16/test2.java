@@ -19,6 +19,6 @@ public class test2 {
         }
         else{
             System.out.println("错误");
-        }
+        }sc.close();
     }
 }

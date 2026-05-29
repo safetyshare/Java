@@ -22,7 +22,7 @@ public class Test4 {
             }
             ms2=System.currentTimeMillis();
             System.out.println("循环花费的时间："+(ms2-ms1));
-        }
+        }sc.close();
         
     }
 }

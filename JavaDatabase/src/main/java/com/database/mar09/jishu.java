@@ -12,6 +12,6 @@ public class jishu {
         else {
             System.out.println("该数为偶数");
         }
-
+        sc.close();
     }
 }

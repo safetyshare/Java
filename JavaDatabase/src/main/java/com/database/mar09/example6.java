@@ -11,5 +11,6 @@ public class example6 {
         else {
             System.out.println("不满足要求");
         }
+        sc.close();
     }
 }

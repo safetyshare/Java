@@ -15,6 +15,6 @@ public class example5 {
         {
             System.out.println("输入错误！");
         }
-
+        sc.close();
     }
 }

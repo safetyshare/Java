@@ -13,5 +13,6 @@ public class example4 {
         System.out.println("面积为："+s);
         //开平方根
         double z=Math.sqrt(s);
+        sc.close();
     }
 }

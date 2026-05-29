@@ -30,6 +30,6 @@ public class example5 {
                 }
             default:
                 System.out.println("输入错误");
-        }
+        }sc.close();
     }
 }

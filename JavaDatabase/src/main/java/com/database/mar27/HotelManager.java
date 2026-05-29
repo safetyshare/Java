@@ -2,6 +2,7 @@ package com.database.mar27;
 import java.util.Scanner;
 public class HotelManager {
     private static String[][] rooms =new String[5][10];
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         init();
@@ -25,7 +26,6 @@ public class HotelManager {
                 default:
                     System.out.println("你输入的指令错误，请重新输入！");
             }
-            
         }
     }
     public static void init() {
@@ -46,9 +46,11 @@ public class HotelManager {
             for (int k = 0; k < rooms[i].length; k++) {
                 System.out.print(rooms[i][k] + "\t");}
             System.out.println();
+            
         }
     }
     //办理入住
+    @SuppressWarnings("resource")
     public static void in() {
         System.out.println("请输入房间号：");
         Scanner sc = new Scanner(System.in);
@@ -72,6 +74,7 @@ public class HotelManager {
         System.out.println("入住成功！");
     }
     //办理退房
+    @SuppressWarnings("resource")
     public static void out(){
         System.out.println("请输入房间号：");
         Scanner sc = new Scanner(System.in);
@@ -92,6 +95,7 @@ public class HotelManager {
         }
         rooms[floor-1][no-1] = "EMPTY";
         System.out.println("该房间退房成功！");
+        
     }
     //退出
     private static void exit() {

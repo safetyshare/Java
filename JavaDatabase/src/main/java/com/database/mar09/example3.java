@@ -12,6 +12,6 @@ public class example3 {
         s=chang*kuan;
         System.out.println("周长为：" + c);
         System.out.println("面积为：" + s);
-
+        sc.close();
     }
 }

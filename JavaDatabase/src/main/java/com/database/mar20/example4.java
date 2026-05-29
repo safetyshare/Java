@@ -18,5 +18,6 @@ public class example4 {
             }
         }
         System.out.println("输入的正数的和为："+sum);
+        sc.close();
     }
 }

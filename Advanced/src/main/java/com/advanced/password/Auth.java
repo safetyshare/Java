@@ -1,6 +1,7 @@
 package com.advanced.password;
 import java.util.Scanner;
 public class Auth {
+    @SuppressWarnings({ "resource", "unused" })
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("请输入用户名");

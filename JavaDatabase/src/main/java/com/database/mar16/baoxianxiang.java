@@ -24,5 +24,6 @@ public class baoxianxiang
         else {
             System.out.println("第一层错误，保险箱开启失败");
         }
+        sc.close();
     }
 }

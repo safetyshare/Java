@@ -28,6 +28,6 @@ public class Main {
         else
         {
             System.out.println("输入错误");
-        }
+        }sc.close();
     }
 }

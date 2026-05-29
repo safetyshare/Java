@@ -17,6 +17,6 @@ public class test {
         else if(x>=10)
         {
             System.out.println("y的值为："+(3*x-11));
-        }
+        }sc.close();
     }
 }

@@ -5,6 +5,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class wf {
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         //创建 FileReader 对象,并指定需要读取的文件
         FileReader fileReader = null;

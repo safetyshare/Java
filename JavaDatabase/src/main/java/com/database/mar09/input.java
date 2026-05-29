@@ -10,5 +10,6 @@ public class input {
         System.out.print("请输入一个小数:");
         y=sc.nextDouble();
         System.out.println("y="+y);
+        sc.close();
     }
 }

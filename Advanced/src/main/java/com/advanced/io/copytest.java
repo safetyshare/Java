@@ -6,6 +6,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 public class copytest {
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         FileInputStream fis= null;
         FileOutputStream fos= null;

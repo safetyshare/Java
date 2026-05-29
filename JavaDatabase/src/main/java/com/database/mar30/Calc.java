@@ -9,7 +9,7 @@ public class Calc {
         int b=sc.nextInt();
         Add add=new Add();
         System.out.println("两数之和为："+add.add(a,b));
-
+        sc.close();
     }
 }
 class Add {

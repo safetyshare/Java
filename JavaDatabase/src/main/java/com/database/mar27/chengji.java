@@ -55,6 +55,6 @@ public class chengji {
                     System.out.print(d + " \t");
                 }
                 System.out.println();
-            }
+            }sc.close();
     }
 }

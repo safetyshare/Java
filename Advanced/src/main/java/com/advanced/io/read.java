@@ -5,6 +5,7 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class read {
+    @SuppressWarnings("resource")
     static void main() {
         FileReader fr=null;
         try {

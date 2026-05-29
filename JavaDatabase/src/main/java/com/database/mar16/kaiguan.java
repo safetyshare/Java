@@ -29,6 +29,6 @@ public class kaiguan {
                 break;
             default:
                 System.out.println("输入错误");
-        }
+        }sc.close();
     }
 }

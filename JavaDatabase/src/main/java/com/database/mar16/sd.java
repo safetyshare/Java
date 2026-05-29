@@ -21,6 +21,6 @@ public class sd {
             {
                 System.out.println("成绩不及格");
             }
-        }
+        }sc.close();
     }
 }
