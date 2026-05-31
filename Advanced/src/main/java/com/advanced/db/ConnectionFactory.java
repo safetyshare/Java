@@ -21,7 +21,8 @@ public class ConnectionFactory {
         // 获取当前线程的类加载器
         ClassLoader loader = curThread.getContextClassLoader();
         // 获取属性文件的输入流
-        InputStream inStream = loader.getResourceAsStream("jdbc.properties");
+        InputStream inStream = ConnectionFactory.class.getClassLoader()
+                .getResourceAsStream("jdbc.properties");
         // 创建保存属性文件内容的对象
         Properties prop = new Properties();
         // 把属性文件中的内容保存到prop对象中
