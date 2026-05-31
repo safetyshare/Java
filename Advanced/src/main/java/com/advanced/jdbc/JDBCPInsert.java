@@ -3,6 +3,7 @@ package com.advanced.jdbc;
 import java.sql.*;
 
 public class JDBCPInsert {
+    @SuppressWarnings("unused")
     static void main(){
         Connection conn = null;
         PreparedStatement stmt = null;

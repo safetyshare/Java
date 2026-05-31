@@ -47,7 +47,7 @@ public class ConnectionFactory {
             return conn;
         } catch (ClassNotFoundException e) {
             throw new RuntimeException(e);
-        } catch (SQLException e) {
+        }   catch (SQLException e) {
             throw new RuntimeException(e);
         }
     }
