@@ -14,8 +14,8 @@ public class update {
             if (result > 0) {
                 System.out.println("执行成功，修改了" + result + "条数据");
             }
-        } catch (Exception e) {
-            e.getMessage();
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
         }
     }
 }
