@@ -21,6 +21,7 @@ public class Example07 {
 			// 开启两个线程
 			thread1.start();
 			thread2.start();
+
 		}
 	}
 

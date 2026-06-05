@@ -10,16 +10,32 @@ public class Example16 {
 		Thread thread1 = new Thread(() -> {
 			int num = 0;
 			while (System.currentTimeMillis()-start<=100) {
-				goods.add("商品" + ++num);
-				System.out.println("生产商品" + num);
+				synchronized (goods){
+					if (goods.size()>0){
+                        try {
+                            goods.wait();
+                        } catch (InterruptedException e) {
+                            throw new RuntimeException(e);
+                        }
+                    }else {
+						goods.add("商品" + ++num);
+						System.out.println("生产商品" + num);
+					}
+				}
 			}
 		}, "生产者");
 		// 创建一个消费线程，用于消费商品并将商品从集合删除
 		Thread thread2 = new Thread(() -> {
 			int num = 0;
 			while (System.currentTimeMillis()-start<=100) {
-				goods.remove("商品" + ++num);
-				System.out.println("消费商品" + num);
+				synchronized (goods){
+					if (goods.size()<=0){
+                        goods.notify();
+                    }else {
+						goods.remove("商品" + ++num);
+						System.out.println("消费商品" + num);
+					}
+				}
 			}
 		}, "消费者");
 		// 同时启动生产者和消费者两个线程，并统一执行100毫秒的时间
