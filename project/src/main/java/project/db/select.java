@@ -11,6 +11,7 @@ import java.util.List;
 
 
 public class select {
+    @SuppressWarnings("rawtypes")
     public static List selectall() {
         List<Student> studentList = new ArrayList<>();
         try(Connection con= ConnectionFactory.getConnection()){
@@ -58,6 +59,7 @@ public class select {
         }
         return student;
     }
+    @SuppressWarnings("rawtypes")
     public static List selectStudentByName(String sname) {
         List<Student> studentList = new ArrayList<>();
         try(Connection con= ConnectionFactory.getConnection()){

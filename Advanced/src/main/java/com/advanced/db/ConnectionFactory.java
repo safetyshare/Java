@@ -6,6 +6,7 @@ import java.sql.*;
 import java.util.Properties;
 
 public class ConnectionFactory {
+    @SuppressWarnings("unused")
     private static String DRIVER;
     private static String URL;
     private static String USERNAME;
@@ -19,6 +20,7 @@ public class ConnectionFactory {
         // 获取当前运行的线程对象
         Thread curThread = Thread.currentThread();
         // 获取当前线程的类加载器
+        @SuppressWarnings("unused")
         ClassLoader loader = curThread.getContextClassLoader();
         // 获取属性文件的输入流
         InputStream inStream = ConnectionFactory.class.getClassLoader()
@@ -39,7 +41,9 @@ public class ConnectionFactory {
     }
     public static final Connection getConnection(){
         Connection conn = null;
+        @SuppressWarnings("unused")
         PreparedStatement stmt = null;
+        @SuppressWarnings("unused")
         ResultSet rs = null;
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");

@@ -1,6 +1,5 @@
 package project.db;
 
-import project.db.ConnectionFactory;
 import project.bean.Student;
 import java.sql.Connection;
 import java.sql.PreparedStatement;

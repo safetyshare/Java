@@ -10,6 +10,7 @@ public class StudentDaoImpl implements StudentDao {
     @Override
     public List<Student> lookAllStudent() {
         // 关键：让selectall()返回查询到的学生列表，并接收这个列表
+        @SuppressWarnings("unchecked")
         List<Student> studentList = select.selectall();
         return studentList; // 返回实际数据，而非空列表
     }
@@ -29,6 +30,7 @@ public class StudentDaoImpl implements StudentDao {
     @Override
     public List<Student> lookStudentByName(String sname) {
         // 关键：接收按姓名查询的学生列表
+        @SuppressWarnings("unchecked")
         List<Student> studentList = select.selectStudentByName(sname);
         return studentList; // 返回实际数据，而非空列表
     }
