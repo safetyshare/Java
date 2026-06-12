@@ -4,10 +4,9 @@ import java.lang.reflect.Field;
 
 /**利用反射来动态获取或设置指定对象的指定成员变量的值 */
 public class ReflectFieldTest {
-    @SuppressWarnings("unchecked")
     public static void main(String[] args) {
         try {
-            Class c = Class.forName("com.qiujy.corejava15.Product");
+            Class c = Class.forName("com.advanced.reflection.Product");
             //使用无参构造方法创建对象
             Product prod = (Product)c.newInstance();
             //调用私有属性

@@ -3,9 +3,11 @@ package com.advanced.reflection;
 public class Product {
     private static long count =0;
     private long id;
+//    private long count=0;
     private String name;
     public Product(){
         System.out.println("无参方法");
+        id=++count;
     }
     public void setString(long id,String name){
         this.id=id;
