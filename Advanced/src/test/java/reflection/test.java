@@ -6,7 +6,8 @@ import java.lang.reflect.Field;
 
 public class test {
     static void main() throws NoSuchFieldException, ClassNotFoundException, InstantiationException, IllegalAccessException {
-        Class clazz=Class.forName("com.advanced.reflection.Product");
+        Class<?> clazz=Class.forName("com.advanced.reflection.Product");
+        @SuppressWarnings("deprecation")
         Product product=(Product) clazz.newInstance();
         Field id=clazz.getDeclaredField("id");
         id.setAccessible(true);

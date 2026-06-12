@@ -4,7 +4,8 @@ import java.lang.reflect.Method;
 
 public class reflectInvoke {
     static void main() throws Exception{
-        Class claze = Class.forName("com.advanced.reflection.Product");
+        Class<?> claze = Class.forName("com.advanced.reflection.Product");
+        @SuppressWarnings("deprecation")
         Product pro=(Product) claze.newInstance();
         Method med1 =claze.getDeclaredMethod("setString", long.class, String.class);
         Object returnvalue=med1.invoke(pro,23,"AA");

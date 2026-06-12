@@ -5,6 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 
 public class ReadFile {
+    @SuppressWarnings("null")
     public static void main(String[] args) {
 
         // 1.创建文件输入流来读取文件

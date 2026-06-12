@@ -15,7 +15,6 @@ public class DynaProxyHander implements InvocationHandler{
         try {
             result=method.invoke(target, args);
         } catch (Exception e) {
-            // TODO: handle exception
             throw e;
         }
         return result;

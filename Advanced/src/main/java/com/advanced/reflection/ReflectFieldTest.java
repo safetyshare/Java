@@ -6,8 +6,9 @@ import java.lang.reflect.Field;
 public class ReflectFieldTest {
     public static void main(String[] args) {
         try {
-            Class c = Class.forName("com.advanced.reflection.Product");
+            Class<?> c = Class.forName("com.advanced.reflection.Product");
             //使用无参构造方法创建对象
+            @SuppressWarnings("deprecation")
             Product prod = (Product)c.newInstance();
             //调用私有属性
             Field idField = c.getDeclaredField("id");

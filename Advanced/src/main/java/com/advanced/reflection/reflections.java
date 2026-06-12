@@ -6,7 +6,7 @@ import java.lang.reflect.Modifier;
 
 public class reflections {
     static void main() throws Exception {
-        Class clazz = Class.forName("java.lang.System");
+        Class<?> clazz = Class.forName("java.lang.System");
 //        printf(clazz);
 //        printSuperClass(clazz);
 //        printInterface(clazz);
@@ -15,24 +15,27 @@ public class reflections {
         printMethods(clazz);
     }
 
-    public static void printInterface(Class clazz) {
+    public static void printInterface(@SuppressWarnings("rawtypes") Class clazz) {
+        @SuppressWarnings("rawtypes")
         Class[] interfaces = clazz.getInterfaces();
         if (interfaces.length > 0) {
             System.out.println("实现了以下接口");
         }
-        for (Class class1 : interfaces) {
+        for (@SuppressWarnings("rawtypes") Class class1 : interfaces) {
             System.out.println(class1);
         }
 
     }
 
-    public static void printConstructor(Class clazz) {
+    public static void printConstructor(@SuppressWarnings("rawtypes") Class clazz) {
+        @SuppressWarnings("rawtypes")
         Constructor[] constructors = clazz.getConstructors();
-        for (Constructor constructor : constructors) {
+        for (@SuppressWarnings("rawtypes") Constructor constructor : constructors) {
             System.out.println(constructor);
             String name = constructor.getName();
             String modifier = Modifier.toString(constructor.getModifiers());
             System.out.println(modifier + "++" + name);
+            @SuppressWarnings("rawtypes")
             Class[] parameter = constructor.getParameterTypes();
             for (int i = 0; i < constructors.length; i++) {
                 System.out.println(",");
@@ -48,7 +51,7 @@ public class reflections {
         }
     }
 
-    public static void printf(Class clazz) {
+    public static void printf(@SuppressWarnings("rawtypes") Class clazz) {
         System.out.println("类名：" + clazz);
         String packageN = clazz.getPackage().getName();
         System.out.println("包名：" + packageN);
@@ -59,7 +62,9 @@ public class reflections {
 //        System.out.println(clazz.get);
     }
 
-    public static void printSuperClass(Class clazz) {
+    @SuppressWarnings("null")
+    public static void printSuperClass(@SuppressWarnings("rawtypes") Class clazz) {
+        @SuppressWarnings("rawtypes")
         Class superclass = clazz.getSuperclass();
         if (superclass != null && !superclass.equals(Object.class)) {
             System.out.println(superclass);
@@ -72,12 +77,14 @@ public class reflections {
 
     }
 
-    public static void printDeclaredConstructor(Class clazz) {
+    public static void printDeclaredConstructor(@SuppressWarnings("rawtypes") Class clazz) {
+        @SuppressWarnings("rawtypes")
         Constructor[] constructors = clazz.getDeclaredConstructors();
-        for (Constructor constructor : constructors) {
+        for (@SuppressWarnings("rawtypes") Constructor constructor : constructors) {
             String name = constructor.getName();
             String modifier = Modifier.toString(constructor.getModifiers());
             System.out.println(modifier + "\t" + name);
+            @SuppressWarnings("rawtypes")
             Class[] parameter = constructor.getParameterTypes();
             for (int i = 0; i < constructor.getParameterTypes().length; i++) {
                 System.out.print(",");
@@ -93,12 +100,13 @@ public class reflections {
         }
     }
 
+    @SuppressWarnings("rawtypes")
     public static void printMethods(Class clazz) {
         Method[] constructors = clazz.getDeclaredMethods();
         for (Method constructor : constructors) {
             String name = constructor.getName();
             String modifier = Modifier.toString(constructor.getModifiers());
-            Class returntype=constructor.getReturnType();
+            Class<?> returntype=constructor.getReturnType();
             System.out.println(modifier + "\t" + name);
             System.out.println("return:"+returntype);
             Class[] parameter = constructor.getParameterTypes();

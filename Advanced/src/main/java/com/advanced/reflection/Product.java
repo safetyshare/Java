@@ -4,6 +4,7 @@ public class Product {
     private static long count =0;
     private long id;
 //    private long count=0;
+    @SuppressWarnings("unused")
     private String name;
     public Product(){
         System.out.println("无参方法");
@@ -14,6 +15,7 @@ public class Product {
         this.name=name;
         System.out.println("有参方法");
     }
+    @SuppressWarnings("unused")
     private long getid(){
         System.out.println(id);
         System.out.println("私有方法");

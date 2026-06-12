@@ -18,6 +18,7 @@ public class zuoye2 {
 //        t1.join();t2.join();t3.join();t4.join();t5.join();
 //        t6.join();t7.join();t8.join();t9.join();t10.join();
         Thread[] threads={t1,t2,t3,t4,t5,t6,t7,t8,t9,t10};
+        @SuppressWarnings("unused")
         boolean finish;
         do {
             finish=true;

@@ -4,6 +4,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 public class write {
+    @SuppressWarnings("null")
     static void main()  {
         FileOutputStream out=null;
         try {
