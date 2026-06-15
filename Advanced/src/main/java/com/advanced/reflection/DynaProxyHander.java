@@ -10,6 +10,7 @@ public class DynaProxyHander implements InvocationHandler{
         return java.lang.reflect.Proxy.newProxyInstance(target.getClass().getClassLoader(), target.getClass().getInterfaces(), this);
     }
     @Override
+    
     // 动态代理类，目标对象必须实现接口
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
         Object result=null;
