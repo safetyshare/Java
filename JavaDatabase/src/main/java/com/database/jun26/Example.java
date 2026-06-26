@@ -36,5 +36,6 @@ public class Example {
         // int []r={1,2,3,4,5};
         int n=698;
         System.out.println(n/10%10);
+        // String s=new String(true);
     }
 }
