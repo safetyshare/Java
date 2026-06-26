@@ -1,7 +1,5 @@
 package file;
 
-import java.io.BufferedOutputStream;
-import java.io.BufferedWriter;
 import java.util.LinkedList;
 
 public class ks {

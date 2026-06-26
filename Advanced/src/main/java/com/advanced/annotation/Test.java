@@ -1,12 +1,13 @@
 package com.advanced.annotation;
 
-import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
 
 public class Test {
     static void main() throws NoSuchMethodException {
+        @SuppressWarnings("null")
         Class<AnnotatedClass> clazz=AnnotatedClass.class;
         Method method=clazz.getMethod("Method1");
+        @SuppressWarnings("null")
         MyAnnotation annotation=method.getAnnotation(MyAnnotation.class);
         System.out.println(annotation.value());
         System.out.println(annotation.month());

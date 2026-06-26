@@ -6,8 +6,10 @@ import java.util.Date;
 
 public class Test1 {
     static void main(){
+        @SuppressWarnings("deprecation")
         Person person=new Person("张三", "女", 15, new Date(2000-1900, 0, 1));
         person.getName();
+        @SuppressWarnings("null")
         Class<Person> clazz=Person.class;
         Method method= null;
         try {
