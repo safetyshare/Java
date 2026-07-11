@@ -4,12 +4,12 @@ public class PensonTest {
     public static void main(String[] args) {
         Person p1 = new Teacher("Alice", "Female", "Chinese", "MIT", "Math");
         p1.speak();
-        p1.toString();
+        System.out.println(p1.toString());
         Teacher t1=(Teacher)p1;
         t1.teach();
         Person p2=new Student("Bob", "Male", "American", "Harvard");
         p2.speak();
-        p2.toString();
+        System.out.println(p2.toString());
         Student s1=(Student)p2;
         s1.study();
     }
@@ -45,9 +45,6 @@ abstract class Person{
     }
     
 }
-/**
- * InnerPensonTest
- */
 class Teacher extends Person{
     private String school;
     private String subject;
@@ -56,7 +53,6 @@ class Teacher extends Person{
     }
     @Override
     void speak() {
-        // TODO Auto-generated method stub
         System.out.println("用"+getNationality()+"语言授课交流");
     }
     public Teacher(String name, String sex, String nationality, String school, String subject) {
@@ -78,9 +74,7 @@ class Student extends Person{
     }
     @Override
     void speak() {
-        // TODO Auto-generated method stub
         System.out.println("用"+getNationality()+"语言学习交流");
-
     }
     public Student(String name, String sex, String nationality, String school) {
         super(name, sex, nationality);
@@ -91,6 +85,5 @@ class Student extends Person{
         return "Student [school=" + school + ", getName()=" + getName() + ", getSex()=" + getSex()
                 + ", getNationality()=" + getNationality() + "]";
     }
-    
     
 }
