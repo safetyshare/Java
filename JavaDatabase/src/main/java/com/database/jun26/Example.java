@@ -37,8 +37,10 @@ public class Example {
         int n=698;
         System.out.println(n/10%10);
         // String s=new String(true);
+        @SuppressWarnings("unused")
         int a[]=new int[]{1,2,3,4,5};
         System.err.println((10+3*8)/4%3);
+        @SuppressWarnings("unused")
         float []f=new float[6];
     }
 }
